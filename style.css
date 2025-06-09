@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body{
+    background: #9ab86d;
+}
+
+.bg-box {
+    width: 1000px;
+    height: 700px;
+    background-color: green;
+    background: 
+        url('https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru') left repeat-y,
+        url('https://www.freeiconspng.com/uploads/lamp-png-0.png') top repeat-x,
+        url('https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png') bottom repeat-x,
+        url('https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg') center no-repeat,
+        url('./images/58eb07b830eab15b56162788.png') right repeat-y,
+        green;
+    background-size: 
+        50px auto,  /* їжачок */
+        50px auto,  /* лампа */
+        auto 50px,   /* трава */
+        auto,        /* основний фон */
+        50px auto;
+}
